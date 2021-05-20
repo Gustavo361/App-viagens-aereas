@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppViagensAereas</string>
+    <string name="tvAviso">* Assigned to the pandemic the number of flights are included</string>
+    <string name="etNomeCadastro">Your complete name</string>
+    <string name="etIdade">Age</string>
+    <string name="etEmail">example@gmail.com</string>
+    <string name="etSenha">Password</string>
+    <string name="etCpf">SSN</string>
+    <string name="btLimpar">CLEAN ALL</string>
+    <string name="btCadastrar">SING UP</string>
+    <string name="etNomeLog">User name</string>
+    <string name="etSenhaLog">Password</string>
+    <string name="btCadastrarSe">SING UP</string>
+    <string name="tvTipoViag">Type of travel</string>
+    <string name="rbIda">Outward Journey</string>
+    <string name="rbIdaVolta">Round trip</string>
+    <string name="tvDatas">Type the date</string>
+    <string name="tvHoteis">Select the hotel name if you wish</string>
+    <string name="tvPesoBagagem">Enter more or less the total weight of the luggage</string>
+    <string name="etPesoKg">weight in KG</string>
+    <string name="btBuscar">Search available biagens</string>
+    <string name="tvSeleLugar">Select the desired place</string>
+    <string name="tvAviso2">* Assigned to the pandemic the number of flights are included</string>
+    <string name="btProximo">NEXT</string>
+    <string name="tvVisaoGeral">Overview of selected data</string>
+    <string name="tvTipoViag2">Type of travel</string>
+    <string name="tvDatas2">Scheduled date</string>
+    <string name="tvPesoBagagem2">Weight of your luggage</string>
+    <string name="tvSeleLugar2">Selected place</string>
+    <string name="tvSpinnerHotel">Selected hotel</string>
+    <string name="btFinalizar">FINISH</string>
+    <string name="rbFortaleza">Fortaleza, BR</string>
+    <string name="rbCataratas">Cataratas do Iguaçu, BR</string>
+    <string name="rbPortGali">Porto de galinhas, BR</string>
+    <string name="rbEdim">Edinburgh, Scotland</string>
+    <string name="rbCidCabo">Cape Town, South Africa</string>
+</resources>

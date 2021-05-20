@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".TelaLugares">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/aviao_logo4"
+            android:layout_width="116dp"
+            android:layout_height="113dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/imgs"
+            app:srcCompat="@drawable/aviao_logo1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+            <TextView
+                android:id="@+id/tvSeleLugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:hint="@string/tvSeleLugar"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvAviso2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tvAviso2"
+                android:textAlignment="center"
+                android:textColorHint="#F12F2F" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                app:srcCompat="@drawable/edimburgo32" />
+
+
+            <RadioGroup
+                android:id="@+id/rgEdim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbEdim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:checked="true"
+                    android:hint="@string/rbEdim"
+                    android:textColorHint="#000000" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/int_cidadeCabo" />
+
+            <RadioGroup
+                android:id="@+id/rgCidCabo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbCidCabo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:hint="@string/rbCidCabo"
+                    android:textColorHint="#000000" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/br_portoGalinhas" />
+
+            <RadioGroup
+                android:id="@+id/rgPortoGali"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbPortGali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:hint="@string/rbPortGali"
+                    android:textColorHint="#000000" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/br_cataratas2" />
+
+            <RadioGroup
+                android:id="@+id/rgCataratas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbCataratas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:hint="@string/rbCataratas"
+                    android:textColorHint="#000000" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                app:srcCompat="@drawable/br_fortaleza" />
+
+            <RadioGroup
+                android:id="@+id/rgFortaleza"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbFortaleza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:hint="@string/rbFortaleza"
+                    android:textColorHint="#000000" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <TextView
+                android:id="@+id/tvHoteis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="@string/tvHoteis"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000" />
+
+            <Spinner
+                android:id="@+id/spinnerHoteis"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <Button
+                android:id="@+id/btProximo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttons1"
+                android:hint="@string/btProximo" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <TextView
+                android:id="@+id/tvFrom5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tvFrom"
+                android:textAlignment="center"
+                android:textColor="#7E7979"
+                android:textColorHighlight="#7E7979"
+                android:textColorHint="#7E7979"
+                android:textColorLink="#7E7979" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

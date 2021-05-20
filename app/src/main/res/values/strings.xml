@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">AppViagensAereas</string>
+    <string name="tvAviso">*Devido à pandemia o número de voos estão limitados</string>
+    <string name="tvNome" translatable="false">For Travelers</string>
+    <string name="tvFrom" translatable="false">From Gustavo</string>
+
+    <string name="tvNome2" translatable="false">For Travelers</string>
+    <string name="etNomeCadastro">Seu nome completo</string>
+    <string name="etIdade">Idade</string>
+    <string name="etEmail">exemplo@gmail.com</string>
+    <string name="etSenha">Senha</string>
+    <string name="etCpf">CPF</string>
+    <string name="btLimpar">LIMPAR</string>
+    <string name="btCadastrar">CADASTRAR</string>
+    <string name="tvFrom2" translatable="false">From Gustavo</string>
+
+    <string name="tvLogin" translatable="false">LOGIN</string>
+    <string name="etNomeLog">Nome de usuário</string>
+    <string name="etSenhaLog">Senha</string>
+    <string name="btLogar" translatable="false">LOGAR</string>
+    <string name="btCadastrarSe">CADASTRAR-SE</string>
+    <string name="tvFrom3" translatable="false">From Gustavo</string>
+
+    <string name="tvTipoViag">Tipo da viagem</string>
+    <string name="rbIda">Ida</string>
+    <string name="rbIdaVolta">Ida e volta</string>
+    <string name="tvDatas">Digite a data</string>
+    <string name="tvHoteis">Selecione o nome do hotel se desejar</string>
+    <string name="tvPesoBagagem">Informe mais ou menos o peso total da bagagem</string>
+    <string name="etPesoKg">Peso em KG</string>
+    <string name="btBuscar">BUSCAR VIAGENS DISPONÍVEIS</string>
+    <string name="tvFrom4" translatable="false">From Gustavo </string>
+
+    <string name="tvSeleLugar">Selecione o lugar desejado</string>
+    <string name="tvAviso2">*Devido à pandemia o número de voos estão limitados</string>
+    <string name="rbEdim">Edimburgo, Escócia</string>
+    <string name="rbCidCabo">Cidade do cabo, África do Sul</string>
+    <string name="rbPortGali">Porto de galinhas, BH</string>
+    <string name="rbCataratas">Cataratas do Iguaçu, PR</string>
+    <string name="rbFortaleza">Fortaleza, CE</string>
+    <string-array name="spinnerHoteis">
+        <item>Selecione uma das opções</item> 0
+        <item>Não vou ficar num Hotel</item> 1
+        <item>Molo Lolo Lodge, Cidade do Cabo</item> 2
+        <item>Courtyard Edinburgh, Edimburgo</item> 3
+        <item>Hatun Inti Boutique Machupicchu, MachuPicchu</item> 4
+        <item>Mabu Thermas Grand Resort, Foz do Iguaçú</item> 5
+        <item>Samoa Beach Resort, Porto de Galinhas</item> 6
+        <item>Hotel Litoral Fortaleza, Fortaleza</item> 7
+    </string-array>
+    <string name="btProximo">PRÓXIMO</string>
+    <string name="TvFrom5" translatable="false">From Gustavo</string>
+
+    <string name="tvVisaoGeral">Visão geral dos dados selecionados</string>
+    <string name="tvTipoViag2">Tipo da viagem</string>
+    <string name="tvDatas2">Data marcada</string>
+    <string name="tvPesoBagagem2">Peso da sua bagagem</string>
+    <string name="tvSeleLugar2">Lugar selecionado</string>
+    <string name="tvSpinnerHotel">Hotel selecionado</string>
+    <string name="btFinalizar">FINALIZAR</string>
+    <string name="tvFrom6" translatable="false"> From Gustavo </string>
+
+    <string name="etDate" translatable="false" />
+    <string name="etDate2" translatable="false" />
+    <string name="tvResData2" translatable="false" />
+    <string name="tvResData1" translatable="false" />
+    <string name="tvResPesoBag" translatable="false"/>
+    <string name="tvResSpinnerHotel" translatable="false" />
+
+
+
+</resources>

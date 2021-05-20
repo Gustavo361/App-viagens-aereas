@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "911078447441",
+    "firebase_url": "https://appviagensaereas.firebaseio.com",
+    "project_id": "appviagensaereas",
+    "storage_bucket": "appviagensaereas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911078447441:android:13dd1c01115f594bb51b70",
+        "android_client_info": {
+          "package_name": "com.gustavo.appviagensaereas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911078447441-l1nbielv2d9p93p2ncd2fhp9am2kd44r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHqoljzkcVJhQIJt-jSpzCrAb0E11M9X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911078447441-l1nbielv2d9p93p2ncd2fhp9am2kd44r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
